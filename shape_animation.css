@@ -1,0 +1,22 @@
+h1 {
+    color:darkslategrey;
+    padding:10px;
+    border:3px solid lightskyblue;
+}
+#box1 {
+    width:300px;
+    height:200px;
+    background-color:green;
+    animation-name:bagI;
+    animation-duration:5s;
+    position: relative;
+    -webkit-animation-name:bagI;
+    -webkit-animation-duration:5s;
+}
+@keyframes bagI {
+    0% { background-color:yellow; width:300px; height:200px; left:0px; top:0px; }
+    25% {background-color:blue; width:200px; height:200px; left:400px; top:0px;}
+    50% {background-color: mediumspringgreen; width:200px; height:300px; left:400px; top:400px;}
+    75% {background-color:darkslategrey; width:200px; height:200px; left:0px; top:400px;}
+    100% {background-color: darkred; width:200px; height:300px; left:0px; top:0px;}
+}
